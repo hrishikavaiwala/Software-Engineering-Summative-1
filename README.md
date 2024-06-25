@@ -35,11 +35,12 @@ To manage I have loosely followed the System Development Life Cycle (SDLC). The 
 I have implemented this with a Kanban Board and tickets which can be done in a Sprint-like manner. This is where a short time period is allotted for a certain set amount of work to be completed.
 
 ### GitHub Project
-![kanbanboard](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/e3a8bad6-0c0a-48ac-b277-3ec5526e9177)
+![kanban](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/1e27cbb4-47de-49a5-8fe5-2a47a4e56456)
 
 Through the use of a ticketing system on the Kanban Board it is simple to see where each section of the project is at through different sections. When items are in backlog, they are either not priority items for that sprint, or are dependent on another ticket being completed. The other sections show when a ticket is ready to begin, is in progress, being tested or completed.
 
 ![labels](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/6ccf0cd8-7d72-46d2-8101-833e68946a88)
+Alongside the use of these tickets, I implemented labels that link to different steps of the SDLC methodology. The documentation label is used so the README.md document can be updated alongside progress with the tickets. Alongside this, the bug label can be added to tickets when something isn’t working as expected when in progress or during the testing phase.
 
 ## Code
 ## Testing
