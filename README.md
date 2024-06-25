@@ -25,9 +25,21 @@ Non-Functional Requirements:
 
 
 ## Design
+![UI Prototypes](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/d4bb7be7-bef9-4395-a944-07a4bfd19a47)
+
+These designs was created via Miro as this provides a simple interface with access to shapes, a wireframe library and a variety of colours that can be leveraged to create a User Interface for my application. I created one base design in three different colours. These colours were checked against WCAG 2.1 which are guidelines for web accessibility. This was sent to a number of potential users for feedback and see which one they preferred before any coding is begun.
+The results showed that the colour scheme users preferred was Prototype2 and feedback was giving that they would like the Clear button to be slightly larger. This will be taken into account during application development to ensure user needs are met.
 
 ## Project Management
+To manage I have loosely followed the System Development Life Cycle (SDLC). The main phases I have taken from this methodology are: Plan, Design, Development, Testing, Maintenance. An Agile SDLC approach will be taken for this application which takes on an iterative approach to project development.
+I have implemented this with a Kanban Board and tickets which can be done in a Sprint-like manner. This is where a short time period is allotted for a certain set amount of work to be completed.
+
 ### GitHub Project
+![kanbanboard](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/e3a8bad6-0c0a-48ac-b277-3ec5526e9177)
+
+Through the use of a ticketing system on the Kanban Board it is simple to see where each section of the project is at through different sections. When items are in backlog, they are either not priority items for that sprint, or are dependent on another ticket being completed. The other sections show when a ticket is ready to begin, is in progress, being tested or completed.
+
+![labels](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/6ccf0cd8-7d72-46d2-8101-833e68946a88)
 
 ## Code
 ## Testing
