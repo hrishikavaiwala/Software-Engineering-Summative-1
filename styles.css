@@ -1,0 +1,69 @@
+body {
+    /* Use a simple sans-serif font and center the content vertically and horizontally */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #6a67ce;
+}
+
+.container {
+    /* Container for the form, with padding, rounded corners, and a shadow */
+    background: #7579e7;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 450px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    /* Display the label and input next to each other with spacing */
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+label {
+    /* Labels are displayed inline-block with a fixed width */
+    display: inline-block;
+    width: 175px;
+    font-size: 1.2em; 
+}
+
+input {
+    /* Smaller input fields with padding and a border radius for rounded corners */
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #6a67ce;
+    color: white;
+}
+
+button {
+    /* Style the button with a background colour, text colour, padding, no border, and rounded corners */
+    background-color: #6a67ce;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    margin-top: 20px; /* Adding margin for spacing */
+}
+
+button:hover {
+    /* Darker background colour when hovering over the button */
+    background-color: #514ccf;
+}
+
