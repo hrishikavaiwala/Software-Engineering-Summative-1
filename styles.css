@@ -1,5 +1,5 @@
 body {
-    /* Use a simple sans-serif font and center the content vertically and horizontally */
+    /* Picked an clear font and centred the text vertically and horizontally */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    /* Container for the form, with padding, rounded corners, and a shadow */
+    /* A box for the application, with padding, rounded corners, and a shadow */
     background: #7579e7;
     padding: 50px;
     border-radius: 10px;
@@ -33,14 +33,14 @@ h1 {
 }
 
 label {
-    /* Labels are displayed inline-block with a fixed width */
+    /* Labels all have a fixed width */
     display: inline-block;
     width: 175px;
     font-size: 1.24em; 
 }
 
 input {
-    /* Smaller input fields with padding and a border radius for rounded corners */
+    /* Smaller boxes with padding and a border radius for rounded corners */
     width: 300px;
     padding: 10px;
     border: none;
@@ -50,13 +50,13 @@ input {
     color: white;
 }
 
-/* Change the placeholder text colour to white */
+/* Change the placeholder text colour to white as the default is grey*/
 input::placeholder {
     color: white;
 }
 
 button {
-    /* Style the button with a background colour, text colour, padding, no border, and rounded corners */
+    /* Gives button a background colour, text colour, padding, and rounded corners */
     background-color: #6a67ce;
     color: white;
     padding: 10px 20px;
@@ -69,6 +69,6 @@ button {
 }
 
 button:hover {
-    /* Darker background colour when hovering over the button */
+    /* Gives button a darker colour when hovering over it */
     background-color: #514ccf;
 }
