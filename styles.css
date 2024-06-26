@@ -50,6 +50,11 @@ input {
     color: white;
 }
 
+/* Change the placeholder text colour to white */
+input::placeholder {
+    color: white;
+}
+
 button {
     /* Style the button with a background colour, text colour, padding, no border, and rounded corners */
     background-color: #6a67ce;
