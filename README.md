@@ -30,7 +30,7 @@ Non-Functional Requirements:
 ![UI Prototypes](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/d4bb7be7-bef9-4395-a944-07a4bfd19a47)
 
 These designs was created via Miro as this provides a simple interface with access to shapes, a wireframe library and a variety of colours that can be leveraged to create a User Interface for my application. I created one base design in three different colours. These colours were checked against WCAG 2.1 which are guidelines for web accessibility. This was sent to a number of potential users for feedback and see which one they preferred before any coding is begun.
-The results showed that the colour scheme users preferred was Prototype2 and feedback was giving that they would like the Clear button to be slightly larger. This will be taken into account during application development to ensure user needs are met.
+The results showed that the colour scheme users preferred was Prototype1 and feedback was giving that they would like the Clear button to be slightly larger. This will be taken into account during application development to ensure user needs are met.
 
 ## Project Management
 To manage I have loosely followed the System Development Life Cycle (SDLC). The main phases I have taken from this methodology are: Plan, Design, Development, Testing, Maintenance. An Agile SDLC approach will be taken for this application which takes on an iterative approach to project development.
@@ -45,7 +45,45 @@ Through the use of a ticketing system on the Kanban Board it is simple to see wh
 
 Alongside the use of these tickets, I implemented labels that link to different steps of the SDLC methodology. The documentation label is used so the README.md document can be updated alongside progress with the tickets. Alongside this, the bug label can be added to tickets when something isn’t working as expected when in progress or during the testing phase.
 
-## Code
+## Development
+
+###Conversion Logic Code
+To create the JavaScript, mathematical formulas were implemented for the converter. This was the first step of development and was required to be coded in a simple and accurate way to ensure it would work for all numbers. Throughout the code consistency of decimal points has also been kept to 2 decimal places. This will be continued for displayed answers within the conversion application also. Comments have been implemented for each section of the conversions to ensure clarity.
+For example, the formula used to convert from Celsius to Fahrenheit is as follows:
+
+```
+if (!isNaN(celsius)) {
+        document.getElementById('fahrenheit').value = (celsius * 9/5 + 32).toFixed(2);
+
+```
+
+Similarly to convert from Fahrenheit to Kelvin is as follows:
+
+```
+if (!isNaN(fahrenheit)) {
+        document.getElementById('kelvin').value = ((fahrenheit - 32) * 5/9 + 273.15).toFixed(2);
+
+```
+
+### HTML and CSS
+Within the HTML, I created a framework of how I wanted the application to look like. This included creating input boxes that linked to the JavaScript and creating a clear button. Creating the button was the most challenging part of this as I struggled to make it clear all the input fields on click. Once I had fixed this issue and tested the web page to ensure all fields clearer on the button click I moved onto CSS.
+My main aim with the CSS was to ensure the application looked simple and clean. As well as this, I wanted to replicate my planned design as much as possible with the addition of a larger clear button. CSS was used for the webpage background, the addition of boxes and alignment of the content created in the HTML. After the application of colours that matched the Prototype1 colour scheme, the web application looked like the design and worked as expected.
+I faced some issues applying the CSS style to the web application. Here, the importance of accurately referencing the CSS and JavaScript files in the HTML was highlighted to ensure they are applied as expected.
+
+```
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+```
+
+
+
+
 ## Testing
+
+### Testing Against Requirements 
+
+### UI Testing
+
 ## Accessibility
+
 ## Evaluation
