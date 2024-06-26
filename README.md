@@ -1,4 +1,6 @@
 # Software Engineering Summative 1 - Temperature Converter Web Application
+![WebApp](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/9fc94e11-911d-4abf-a221-89b1a98a1b1f)
+
 ## Plan
 The creation and implementation of a temperature conversion application within my workplace will be a simple and beneficial tool. As part of the pharmaceutical industry, this application will allow scientists in and outside of laboratories to convert in three different temperature metrics:
 * Celsius
