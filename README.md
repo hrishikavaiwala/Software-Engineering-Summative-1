@@ -48,7 +48,7 @@ Alongside the use of these tickets, I implemented labels that link to different 
 ## Development
 
 
-###Code Logic
+### Code Logic
 Before developing the code, it is important to understand the logic behind it and how you expect the application to work. The aim of the application is to be able to convert between Celsius, Fahrenheit and Kelvin and the conversions to be accurate and given in a timely manner.
 Depending on which input box the user writes in, the other two boxes should give the conversions in the other two input boxes in real-time. There are 4 key scenarios that could occur when the user is interacting with the web application:
 
@@ -58,7 +58,7 @@ Depending on which input box the user writes in, the other two boxes should give
 4. User pressed clear button. All three input/output boxes should clear.
 
 
-###Conversion Code
+### Conversion Code
 To create the JavaScript, mathematical formulas were implemented for the converter. This was the first step of development and was required to be coded in a simple and accurate way to ensure it would work for all numbers. Throughout the code consistency of decimal points has also been kept to 2 decimal places. This will be continued for displayed answers within the conversion application also. Comments have been implemented for each section of the conversions to ensure clarity.
 For example, the formula used to convert from Celsius to Fahrenheit is as follows:
 
