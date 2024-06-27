@@ -84,7 +84,7 @@ I faced some issues applying the CSS style to the web application. Here, the imp
 <script src="script.js"></script>
 ```
 
-
+![kanban2](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/3ca118ae-1d2f-42fe-bc0e-8eb07a644868)
 
 
 ## Testing
