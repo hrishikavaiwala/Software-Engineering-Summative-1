@@ -1,7 +1,7 @@
 //Unit Testing
 
 // Calling functions from script.js
-const { convertFromCelsius, convertFromFahrenheit, convertFromKelvin, clearForm  } = require('./script');
+const { convertFromCelsius, convertFromFahrenheit, convertFromKelvin, clearForm  } = require('./functions.js');
 
 
 

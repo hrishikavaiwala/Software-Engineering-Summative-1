@@ -31,6 +31,3 @@ function clearForm() {
     document.getElementById('fahrenheit').value = '';
     document.getElementById('kelvin').value = '';
 }
-
-// Exporting all functions from this script for Unit Testing
-module.exports = { convertFromCelsius, convertFromFahrenheit, convertFromKelvin, clearForm };
