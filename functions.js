@@ -24,6 +24,5 @@ function convertFromKelvin(kelvin) {
     };
 }
 
-
 // Exporting all functions from this script for Unit Testing
 module.exports = { convertFromCelsius, convertFromFahrenheit, convertFromKelvin};
