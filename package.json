@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "![WebApp](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/9fc94e11-911d-4abf-a221-89b1a98a1b1f)",
   "main": "script.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
