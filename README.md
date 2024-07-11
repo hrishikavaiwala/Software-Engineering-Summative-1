@@ -19,7 +19,7 @@ Functional Requirements:
 * Real-Time Conversion – The application must perform the conversions and display the results in real-time immediately after user input.
 
 Non-Functional Requirements:
-* Performance – The application must load and perform conversions in real time without major delay.
+* Performance – The application must load and perform conversions in real time without delay.
 * Compatibility – The application must be compatible with major browsers and work on various devices including desktops and smartphones.
 * Usability – The application must be simple to use through a clear user interface.
 * Reliability – The application must consistently provide accurate temperature conversions.
@@ -75,9 +75,12 @@ if (!isNaN(fahrenheit)) {
         document.getElementById('kelvin').value = ((fahrenheit - 32) * 5/9 + 273.15).toFixed(2);
 ```
 
+In the two extracts of code above, the “!isNaN” function is used to check if the values of Celsius and Fahrenheit are valid numbers. The “isNaN” function stands for “is Not-a-Number”  The “!” represents the logical operator for NOT which negates the result of “isNaN”. This is so the function only runs if the value in the input boxes is NOT Not-a-Number, meaning it is a number. If the input is not a number the function will not run to prevent errors.
+
+
 ### HTML and CSS
 Within the HTML, I created a framework of how I wanted the application to look. This included creating input boxes that linked to the JavaScript and creating a clear button. Creating the button was the most challenging part of this as I struggled to make it clear all the input fields on click. Once I had fixed this issue and tested the web page to ensure all fields cleared on the button click I moved on to the CSS.
-My main aim with the CSS was to ensure the application looked simple and clean. As well as this, I wanted to replicate my planned design as much as possible with the addition of a larger clear button. CSS was used for the webpage background, the addition of boxes, and alignment of the content created in the HTML. After the application of colours that matched the Prototype1 colour scheme, the web application looked like the design and worked as expected.
+My main aim with the CSS was to ensure the application looked simple and clean. As well as this, I wanted to replicate my planned design as much as possible with the addition of a larger clear button. CSS was used for the webpage background, the addition of boxes, and the alignment of the content created in the HTML. After the application of colours that matched the Prototype1 colour scheme, the web application looked like the design and worked as expected.
 I faced some issues applying the CSS style to the web application. Here, the importance of accurately referencing the CSS and JavaScript files in the HTML was highlighted to ensure they were applied as expected.
 
 ```
@@ -90,12 +93,8 @@ I faced some issues applying the CSS style to the web application. Here, the imp
 
 ## Testing
 
-### Unit Testing
-Throughout the development phase, Test Driven Development (TDD) has been used to reduce bugs and ensure the functions work as expected.
-
-
 ### Testing Against Requirements 
-As well as testing the code, testing against the requirements that were set at the beginning of the project is key to ensure the Web Application works as required. To do this I have created a Test Case to test against each of the requirements.
+As well as testing the code, testing against the requirements that were set at the beginning of the project is key to ensuring the Web Application works as required. To do this I have created a Test Case to test against each requirement.
 
 |     Test ID      |     Requirement                           |     Test Case                                         |     Test Steps                                                                |     Test Data    |     Expected Result                                      |     Actual Result                                        |     Status      |
 |------------------|-------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|------------------|----------------------------------------------------------|----------------------------------------------------------|-----------------|
@@ -117,9 +116,23 @@ As well as testing the code, testing against the requirements that were set at t
 |     Test_16      |     Usability                             |     Number of people are able to use   the web app    |     Test web app with a group of people                                       |     N/A          |     Take feedback from individuals                       |     All agreed the web app is clear   and simple.        |     Complete    |
 |     Test_17      |     Reliability                           |     Always displays correct answer                    |     Repeat Test_1 to Test_09 to   ensure answers are the same                 |     N/A          |     Answers are the same as in the   test previously.    |     Answers are the same as in the   test previously.    |     Complete    |
 
+### Unit Testing
+Throughout the development phase, Test Driven Development (TDD) has been used to reduce bugs and ensure the functions work as expected. For unit testing, I did 10 tests in total through 2 different test scripts.
 
-### UI Testing
+My first test via script smoke.test.js tested if the webpage itself loaded successfully. A smoke test is used to determine if the software is ready for the testing phase and to test how the process itself would work. For this reason, I only put one test in this script.
+To do this I used a GET request and checked the Status Code. The logic behind this test was that if the status code was equal to 200 then this meant the webpage had loaded as expected. Any other status code such as 404 (Not Found response code) would show an error message explaining the error that has been given.
+
+My second test script tests all three functions I created for converting between Celsius, Fahrenheit, and Kelvin. This script is called unit.test.js. For each converting function, I tested three different inputs and checked their outputs against the expected result. I tested a positive number, a negative number, and zero for each function to ensure the logic and calculations worked as expected.
+
+During testing, I came across some issues getting jest to find the test files I had created when using “npm test” in the terminal. Here I found out that the testing files had to follow a specific format to ensure they were picked up by jest. The format for these tests had to be xyz.test.js. This fixed a big issue and allowed me to try out my tests in the terminal and see if my tests failed or passed. After this, I was able to see any errors in my tests or code and fix them to ensure all my tests worked as expected. 
+
+Below you can see all 10 tests passing:
+![testing](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/658e74a6-775f-4780-b241-927111a43e9a)
+
+
 
 ## Accessibility
+
+
 
 ## Evaluation
