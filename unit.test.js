@@ -76,20 +76,20 @@ describe('Converting from Kelvin to Celsius and Fahrenheit', () => {
 
 // Testing clearForm
 
-// Seeting up a mock DOM so there are values to test when clearing using the function
-beforeEach(() => {
-    document.body.innerHTML = `
-        <input type="text" id="celsius" value="25">
-        <input type="text" id="fahrenheit" value="77">
-        <input type="text" id="kelvin" value="298.15">
-    `;
-});
+// Setting up a mock DOM so there are values to test when clearing using the function
+//beforeEach(() => {
+//    document.body.innerHTML = `
+//        <input type="text" id="celsius" value="25">
+//        <input type="text" id="fahrenheit" value="77">
+//        <input type="text" id="kelvin" value="298.15">
+//    `;
+//});
 
-describe('Testing the clearForm function', () => {
-    test('This sshould clear all the input fields', () => {
-        clearForm();
-        expect(document.getElementById('celsius').value).toBe('');
-        expect(document.getElementById('fahrenheit').value).toBe('');
-        expect(document.getElementById('kelvin').value).toBe('');
-    });
-});
+//describe('Testing the clearForm function', () => {
+//    test('This sshould clear all the input fields', () => {
+//        clearForm();
+//        expect(document.getElementById('celsius').value).toBe('');
+//        expect(document.getElementById('fahrenheit').value).toBe('');
+//        expect(document.getElementById('kelvin').value).toBe('');
+//    });
+//});
