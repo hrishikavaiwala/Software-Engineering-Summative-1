@@ -133,6 +133,12 @@ Below you can see all 10 tests passing:
 
 ## Accessibility
 
+To test the accessibility of my website I tested it on Lighthouse. Lighthouse is an open-source automated testing tool. This tool tests against the following variables and gives a score out of 100:
+* Performance - 
+* Accessibility - 
+* Best Practises - 
+* SEO - 
+
 
 
 ## Evaluation
