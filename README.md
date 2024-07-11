@@ -20,7 +20,7 @@ Functional Requirements:
 
 Non-Functional Requirements:
 * Performance – The application must load and perform conversions in real time without major delay.
-* Reliability – The application must be compatible with major browsers and work on various devices including desktops and smartphones.
+* Compatibility – The application must be compatible with major browsers and work on various devices including desktops and smartphones.
 * Usability – The application must be simple to use through a clear user interface.
 * Reliability – The application must consistently provide accurate temperature conversions.
 * Security – All input data must be sanitised to prevent security vulnerabilities.
@@ -90,7 +90,33 @@ I faced some issues applying the CSS style to the web application. Here, the imp
 
 ## Testing
 
+### Unit Testing
+Throughout the development phase, Test Driven Development (TDD) has been used to reduce bugs and ensure the functions work as expected.
+
+
 ### Testing Against Requirements 
+As well as testing the code, testing against the requirements that were set at the beginning of the project is key to ensure the Web Application works as required. To do this I have created a Test Case to test against each of the requirements.
+
+|     Test ID      |     Requirement                           |     Test Case                                         |     Test Steps                                                                |     Test Data    |     Expected Result                                      |     Actual Result                                        |     Status      |
+|------------------|-------------------------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------|------------------|----------------------------------------------------------|----------------------------------------------------------|-----------------|
+|     Test_01      |     Temperature Conversion                |     Convert from Celsius to Fahrenheit                |     Put input in the Celsius Box                                              |     100          |     212.00                                               |     212.00                                               |     Complete    |
+|     Test_02      |     Temperature Conversion                |     Convert from Celsius to Kelvin                    |     Put input in the Celsius Box                                              |     100          |     373.15                                               |     373.15                                               |     Complete    |
+|     Test_03      |     Temperature Conversion                |     Convert from Fahrenheit to Celsius                |     Put input in the Fahrenheit Box                                           |     100          |     37.78                                                |     37.78                                                |     Complete    |
+|     Test_04      |     Temperature Conversion                |     Convert from Fahrenheit to Kelvin                 |     Put input in the Fahrenheit Box                                           |     100          |     310.93                                               |     310.93                                               |     Complete    |
+|     Test_05      |     Temperature Conversion                |     Convert from Kelvin to Celsius                    |     Put input in the Kelvin Box                                               |     100          |     -173.15                                              |     -173.15                                              |     Complete    |
+|     Test_06      |     Temperature Conversion                |     Convert from Kelvin to Fahrenheit                 |     Put input in the Kelvin Box                                               |     100          |     -279.15                                              |     -279.15                                              |     Complete    |
+|     Test_07      |     User Input Handling                   |     Numerical values in input box                     |     Input numerical value in Celsius   Box                                    |     50           |     F=122.00 K=323.15                            |     F=122.00 K=323.15                            |     Complete    |
+|     Test_08      |     User Input Handling                   |     Numerical values in input box                     |     Input numerical value in Fahrenheit   Box                                 |     50           |     C=10.00 K=283.15                             |     C=10.00 K=283.15                             |     Complete    |
+|     Test_09      |     User Input Handling                   |     Numerical values in input box                     |     Input numerical value in Kelvin   Box                                     |     50           |     C=-223.15 F=-369.67                          |     C=-223.15 F=-369.67                          |     Complete    |
+|     Test_10      |     Error Handling                        |     Invalid value in input box                        |     Invalid input in Celsius Box                                              |     abc          |     No input recorded or output                          |     No input recorded or output                          |     Complete    |
+|     Test_11      |     Error Handling                        |     Invalid value in input box                        |     Invalid input in Fahrenheit Box                                           |     abc          |     No input recorded or output                          |     No input recorded or output                          |     Complete    |
+|     Test_12      |     Error Handling                        |     Invalid value in input box                        |     Invalid input in Kelvin Box                                               |     abc          |     No input recorded or output                          |     No input recorded or output                          |     Complete    |
+|     Test_13      |     User Interface                        |     Button Functionality                              |     Press button to clear all fields                                          |     N/A          |     All fields cleared                                   |     All fields cleared                                   |     Complete    |
+|     Test_14      |     Real-Time Conversion + Performance    |     Converting temperatures quickly                   |     Input in Celsius box                                                      |     10           |     Converts immediately without   delay                 |     Converts immediately without delay                   |     Complete    |
+|     Test_15      |     Compatibility                         |     Site loads on all devices                         |     Load device on laptop, PC and   tablet with Chrome, Explorer, and Edge    |     N/A          |     All browsers and devices load   site correctly.      |     All browsers and devices load   site correctly.      |     Complete    |
+|     Test_16      |     Usability                             |     Number of people are able to use   the web app    |     Test web app with a group of people                                       |     N/A          |     Take feedback from individuals                       |     All agreed the web app is clear   and simple.        |     Complete    |
+|     Test_17      |     Reliability                           |     Always displays correct answer                    |     Repeat Test_1 to Test_09 to   ensure answers are the same                 |     N/A          |     Answers are the same as in the   test previously.    |     Answers are the same as in the   test previously.    |     Complete    |
+
 
 ### UI Testing
 
