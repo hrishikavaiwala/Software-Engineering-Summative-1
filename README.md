@@ -45,10 +45,36 @@ Through the use of a ticketing system on the Kanban Board, it is simple to see w
 
 Alongside the use of these tickets, I implemented labels that link to different steps of the SDLC methodology. The documentation label is used so the README.md document can be updated alongside the progress of the tickets. Alongside this, the bug label can be added to tickets when something isn’t working as expected when in progress or during the testing phase.
 
+## Technical Documentation
+
+### Step 1. Ensure node and npm are installed by running the following commands in your terminal:
+
+```sh
+node -v
+```
+```sh
+npm -v
+```
+If npm in not installed, follow this steps:
+```sh
+npm install -g npm
+```
+
+### Step 2. Clone this repository:
+
+```sh
+git clone https://github.com/hrishikavaiwala/Software-Engineering-Summative-1.git
+```
+
+### Step 3. To run the unit tests, run the following command:
+
+```sh
+npm test
+```
+
+
+
 ## Development
-
-### Technical Documentation
-
 
 ### Code Logic
 Before developing the code, it is important to understand the logic behind it and how you expect the application to work. The aim of the application is to be able to convert between Celsius, Fahrenheit, and Kelvin, and the conversions to be accurate and given in a timely manner.
