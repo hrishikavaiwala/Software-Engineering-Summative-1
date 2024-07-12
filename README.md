@@ -47,6 +47,8 @@ Alongside the use of these tickets, I implemented labels that link to different 
 
 ## Development
 
+### Technical Documentation
+
 
 ### Code Logic
 Before developing the code, it is important to understand the logic behind it and how you expect the application to work. The aim of the application is to be able to convert between Celsius, Fahrenheit, and Kelvin, and the conversions to be accurate and given in a timely manner.
@@ -89,6 +91,19 @@ I faced some issues applying the CSS style to the web application. Here, the imp
 ```
 
 ![kanban2](https://github.com/hrishikavaiwala/Software-Engineering-Summative-1/assets/126560322/3ca118ae-1d2f-42fe-bc0e-8eb07a644868)
+
+### Files used to run the app
+* script.js
+* styles.css
+* index.html
+
+### Files used in testing
+* package.json
+* package-lock.json
+* functions.js
+* smoke.test.js
+* unit.test.js 
+
 
 
 ## Testing
