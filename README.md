@@ -149,3 +149,9 @@ Below you can see the scores given for these metrics as well as more in-depth pe
 
 
 ## Evaluation
+
+Overall, the design of the application is simple and intuitive. The minimalistic design helps fast loading times. The simple use of the JavaScript function for conversions also helps maintain a responsive UI that converts in real-time. I have also ensured to use semantic HTML elements such as <button> and <label> which ensures compatibility with assistive technologies.
+One thing I would improve on in the future would be having additional features. For example, having a function that clears the other input boxes when inserts a new number in one of the boxes could be beneficial. Although this functionality isn’t necessary it could enhance user experience
+
+[The deployed application is available here:](https://hrishikavaiwala.github.io/Software-Engineering-Summative-1/)
+
