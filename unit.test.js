@@ -1,10 +1,11 @@
 //Unit Testing
 
-// Calling functions from script.js
+// Calling functions from functions.js
 const { convertFromCelsius, convertFromFahrenheit, convertFromKelvin, clearForm  } = require('./functions.js');
 
 
 
+// Testing convertFromCelsius with positive numbers, negative numbers, and zero
 describe('Converting from Celsius to Fahrenheit and Kelvin', () => {
     test('convertFromCelsius(100) should return Fahrenheit = 212.00 and Kelvin = 373.15', () => {
         const result = convertFromCelsius(100);

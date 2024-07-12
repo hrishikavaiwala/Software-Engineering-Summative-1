@@ -1,4 +1,4 @@
-// All functions for my application will be exported from here to script.js
+// All functions for my application have ben defined here
 
 // Function to convert from Celsius to Fahrenheit and Kelvin to two decimal places
 function convertFromCelsius(celsius) {
