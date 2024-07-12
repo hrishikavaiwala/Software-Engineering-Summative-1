@@ -132,13 +132,20 @@ Below you can see all 10 tests passing:
 
 
 ## Accessibility
+To test the accessibility of my website I tested it on Lighthouse. Lighthouse is an open-source automated testing tool. This tool tests against the following 4 key variables and gives a score out of 100:
 
-To test the accessibility of my website I tested it on Lighthouse. Lighthouse is an open-source automated testing tool. This tool tests against the following variables and gives a score out of 100:
-* Performance - 
-* Accessibility - 
-* Best Practises - 
-* SEO - 
+* Performance – This refers to how efficiently and quickly the website loads and runs. The metrics involved in determining its scoring. This includes page load time, speed index, and interactive time.
 
+* Accessibility – This test checks to ensure text is readable, all interactive elements are easily accessible, and ARIA (Accessible Rich Internet Application) roles are applied to enhance HTML semantics.
+
+* Best Practices – This metric tests against a range of web development standards to ensure the site runs smoothly. This includes testing security (use of HTTPS), responsiveness, browser compatibility, and more.
+
+* SEO (Search Engine Optimisation) – This refers to optimising the website to rank higher in search engine results. This includes checking URL structure, content quality, mobile friendliness, and site speed.
+
+Below you can see the scores given for these metrics as well as more in-depth performance metrics.
+![metrics](https://github.com/user-attachments/assets/ed1b847f-3be4-40a0-b47c-a3285e968e79)
+
+![performance metrics](https://github.com/user-attachments/assets/be76c4e7-5c01-45c8-ad5a-a55f0d933232)
 
 
 ## Evaluation
