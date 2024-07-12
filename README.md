@@ -55,7 +55,9 @@ node -v
 ```sh
 npm -v
 ```
-If npm in not installed, follow this steps:
+
+If npm in not installed, do the following:
+
 ```sh
 npm install -g npm
 ```
@@ -71,8 +73,6 @@ git clone https://github.com/hrishikavaiwala/Software-Engineering-Summative-1.gi
 ```sh
 npm test
 ```
-
-
 
 ## Development
 
